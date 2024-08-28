@@ -1,12 +1,16 @@
 import './App.css';
+import Country from './components/Country';
 // import Login from './components/Login';
-import Menu from './components/Menu';
+// import Menu from './components/Menu';
+// import ProductList from './components/ProductList';
 
 function App() {
   return (
     <div>
       {/* <Login /> */}
-      <Menu />
+      {/* <Menu /> */}
+      {/* <ProductList /> */}
+      <Country />
     </div>
   );
 }
